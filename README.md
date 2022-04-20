@@ -1,4 +1,4 @@
-# lambda-waf-alerting
+# lambda-waf-alerting-go
 
 This repository contains the code for a lambda function used to send CloudWatch WAFv2 alerts in a given Slack channel.
 
@@ -12,7 +12,7 @@ You need a working [go](https://golang.org/doc/install) toolchain (It has been d
 
 ```sh
 # Clone this repository
-git clone git@bitbucket.org:moodagent/lambda-waf-alerting.git && cd lambda-waf-alerting
+git clone https://github.com/lescactus/lambda-waf-alerting-go.git && cd lambda-waf-alerting-go
 
 # Build from sources. Use the '-o' flag to change the compiled binary name
 cd function/

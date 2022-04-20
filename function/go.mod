@@ -1,4 +1,4 @@
-module lambda-waf-alerting
+module lambda-waf-alerting-go
 
 go 1.14
 
